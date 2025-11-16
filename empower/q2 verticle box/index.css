@@ -1,0 +1,45 @@
+body {
+    background-color:#8a6eba;; /* Light gray background to mimic the screen */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+    width: 200%;
+    max-width: 400px;
+}
+
+h1 {
+    color:rgb(92, 5, 174);
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-style: italic; 
+}
+
+.card {
+    background-color:white;
+    background: ;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.label {
+    color: #6a6a6a;
+    font-size: 1.9em;
+    margin: 0 0 10px 0;
+}
+
+.value {
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5px;
+}
