@@ -1,0 +1,19 @@
+let num=5;
+function Primenumber(num)
+{
+    let count=0
+    for(let i=1;i<=num;i++)
+    {
+        if(num%i==0)
+        {
+            count++;
+        }
+    }    
+        if(count==5)
+            {
+                return true
+            }else{
+                    return false
+                }
+}
+console.log(Primenumber(num))
