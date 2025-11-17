@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+
+        .container {
+            width: 500px;
+            height: 600px;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+        }
+
+        .image-box {
+            width: 500px;
+            height: 310px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .image-box img {
+            width: 50%;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .rating-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            margin: 5px 0;
+    }
+.rating {
+            background: #0a8f47;
+            color: white;
+            padding: 3px 7px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .reviews {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .badges img {
+            width: 55px;
+            margin-left: 5px;
+        }
+
+        .price-section {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .old-price {
+            font-size: 16px;
+            text-decoration: line-through;
+            color: #666;
+        }
+
+        .discount {
+            font-size: 17px;
+            color: #1a8f32;
+            font-weight: bold;
+        }
+        .offer {
+            font-style: bold;
+            background-color: #029044;
+            display: inline-block;
+        }
+        .button{
+            font-weight: bold;
+
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="image-box">
+            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="Product Image">
+        </div>
+
+        <div class="title">SAMSUNG Galaxy Watch6 LTE</div>
+        <div class="subtitle">Graphite Strap, 44mm</div>
+
+        <div class="rating-box">
+            <div class="rating">4.3 ★</div>
+            <div class="reviews">(973)</div>
+            <div class="badges">
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="">
+            </div>
+        </div>
+
+        <div class="price-section">
+            <div class="price">₹18,999</div>
+            <div class="old-price">₹41,999</div>
+            <div class="discount">54% off</div><br>
+</div><br>
+        <div>
+            <div class="offer">
+            <div style="background-color:rgb(81, 209, 81)" class="offerprice">Bank offer</div> 
+        </div>
+        <br><br>
+        <button style="color: red">Buy Now</button>
+        </div>
+    </body>
+</html>
