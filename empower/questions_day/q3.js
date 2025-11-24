@@ -17,4 +17,5 @@ const people = [
 const result = people.map(({ name, address: { city, street: { name: streetName } } }) => {
   return `${name} lives in ${city} on ${streetName}`;
 });
+
 console.log(result);

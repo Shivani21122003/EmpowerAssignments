@@ -1,3 +1,4 @@
+//profile
 const profile = { 
   name: "Charlie", 
   age: 29, 
@@ -6,6 +7,7 @@ const profile = {
     zipcode: "94101" 
   } 
 };
+//upates
 const updates = { 
   age: 30, 
   address: { 
@@ -13,6 +15,7 @@ const updates = {
     country: "USA" 
   } 
 };
+//Spread Operator
 const mergedProfile = {...profile,...updates,address: {...profile.address,...updates.address}
 };
 console.log(mergedProfile);

@@ -2,7 +2,7 @@
 //a>>const 
 const a=5;
 const b=7;
-console.log(${a} + ${b} =${a+b});
+console.log(`${a} + ${b} =${a+b}`);
 //b>
 const message=`
 This is line 1
@@ -11,9 +11,9 @@ This is line 3
 `;
 console.log(message);
 //c>
-const firstname="anusha";
-const lastname="maraboina";
-console.log(Full NAME: ${firstname} ${lastname});
+const firstname="Shivani";
+const lastname="Siraveni";
+console.log(`Full NAME: ${firstname} ${lastname}`);
 
 //2QUESTION
 //a>>
@@ -77,7 +77,7 @@ console.log(info.user?.name);
 for (var i = 0; i < 3; i++) {}
 console.log(i);
 //b>
-for (let j = 0; j < 3; j++) {}
+for (let j=0; j <3; j++) {}
 console.log(j);
 //c>
 //To prevent accidential reassignment and improve code clartiy.
@@ -125,7 +125,7 @@ const person = {
   name,
   age,
   greet() {
-    console.log(Hello, my name is ${this.name});
+    console.log(`Hello, my name is ${this.name}`);
   }
 };
 console.log(person);
@@ -133,7 +133,7 @@ person.greet();
 
 //9 Template Literals (More Practice)
 const today=new Date().toDateString();
-console.log(today's date is: ${today});
+console.log(`today's date is: ${today}`);
 
 //10 Arrow Function Shorthands
 //a>
